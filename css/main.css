@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #e7001d;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1em;
+  top: 1em;
+  left: 0;
+  width: 100%;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.characters {
+display: block;
+font-size: 4em;
+}
+
+.navigate {
+background-color: #000;
+color: #fff;
+}
+
+.medal {
+  margin: 0 auto;
+  position: relative;
+  padding: 1em;
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.d{
+  float: left;
+width: 50%;
+}
+
+.r{
+float: left;
+width: 50%;
+}
+
+
+ol {
+  text-decoration: none;
+  list-style-type: none;
+  align: left;
+}
+
+.banner {
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+.dragon {
+  background-color: #e4c22a;
+}
+
+.goat {
+  background-color: #000;
+}
+
+.rooster {
+  background-color: #e7001d;
+}
+
+.ox {
+  background-color: #e4c22a;
+}
